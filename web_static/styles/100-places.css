@@ -1,0 +1,136 @@
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+h1 {
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+article h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.price_by_night {
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.information .max_guest,
+.information .number_rooms,
+.information .number_bathrooms {
+    width: 100px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.information .max_guest {
+    background-image: url("../images/group.png");
+}
+
+.information .number_rooms {
+    background-image: url("../images/bed.png");
+}
+
+.information .number_bathrooms {
+    background-image: url("../images/bath.png");
+}
+
+.description, .user {
+    text-align: left;
+}
+
+.user span {
+    font-weight: bold;
+}
+
+.amenities, .reviews {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.amenities h2, .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul h3 {
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+ul p {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.amenities li {
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left center;
+    padding-left: 40px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.amenities .tv {
+    background-image: url("../images/tv.png");
+}
+
+.amenities .wifi {
+    background-image: url("../images/wifi.png");
+}
+
+.amenities .pets {
+    background-image: url("../images/pets.png");
+}
